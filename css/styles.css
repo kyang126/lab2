@@ -15,7 +15,7 @@ body {
 
 p {
 	padding: 10px;
-	font-weight: bold;
+
 }
 
 .title {
@@ -75,5 +75,6 @@ nav a:hover {
 
 .freeshipping{
 	float:right;
-	margin-left: 20px;
+	margin-bottom: 50px;
+	margin-left: 10px;
 }
