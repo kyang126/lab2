@@ -25,6 +25,9 @@ h1 {
 	margin-top: -10px;
 }
 
+.position{
+	margin-top: -40px;
+}
 
 .title {
 	font-family:'Boogaloo', sans-serif;
@@ -34,9 +37,9 @@ h1 {
 
 .title2 {
 	font-size: 200%;
-	margin-top: 10px;
 	color:#116189;
 	font-weight: bolder;
+	margin: 10px;
 }
 
 .motto {
@@ -49,11 +52,11 @@ h1 {
 	font-size: 110%;
 	font-weight: bold;
 	color: #116189;
+	margin-bottom: -10px;
 }
 
 nav ul {
 	background-color: #D74710;
-	width: 80%;
 	border-radius:5px;
 	margin:100 px;
 }
@@ -104,6 +107,47 @@ nav a:hover {
 .person {
 	float:left;
 	margin-right:10px;
+}
+
+.banner {
+	width: 75%;
+	background-color: #FBEAE3;
+	margin: 0 auto;
+	margin-top:20px;
+}
+
+.banner a:link,
+.banner a:visited {
+	text-decoration: none;
+}
+
+.banner a:hover {
+	text-decoration: underline;
+}
+
+.deal{
+	font-style:italic;
+	margin-top: -10px;	
+}
+
+.widget {
+	font-weight: bolder;
+	font-size: 150%;
+}
+
+.basic {
+	float:left;
+	margin-right: 20px;
+}
+
+.super{
+	float:left;
+	margin-right: 20px;
+}
+
+.super-duper{
+	float:left;
+	margin-right: 20px;
 }
 
 footer p{
