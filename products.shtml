@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--#include virtual="inc/header.html" -->
+	</head>
+
+	<body>
+
+		<!--This class deals with all the content in the white space-->
+		<div class="content-box">
+
+			<!-- This section is about the header with the name and motto -->	
+			<header>
+				<p><img class="logo" src="img/logo.png" alt-"Logo picture">
+				<h1 class="title">Widgets-R-Us</h1>
+				<p class="motto">Making high-quality widgets since 1991</p>
+			</header>
+			
+			<!-- This deals with the navigation options with the Home, Products, About-->
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+
+			<!-- This section shows a banner with contact information-->
+			<p class="banner"> <a href="mailto:sales@widgetsrus.com"> Send us an email</a> or call us to order any of our products</p>
+
+			<!-- This section shows the products with the images next to them -->
+			<p><img class="basic" src="img/basic-widget.png" alt-"basic widget picture">
+			<h2 class="widget">Basic Widget</h2>
+			<p>This is just your basic widget, nothing fancy
+			<div class="deal"> $10 each; $100 box of 20</div></p>
+
+			<p><img class="super" src="img/super-widget.png" alt-"super-widget picture">
+			<h2 class = "widget"> Super Widget</h2>
+			<p>A higher-end widget that is really super
+			<div class = "deal"> $20 each; $200 box of 20</div></p>	
+			
+			<p><img class="super-duper" src="img/super-duper-widget.png" alt-"Logo picture">
+			<h2 class = "widget"> Super-Duper Widget</h2>
+			<p>Our premium widget, the best of its kind! <div class = "deal">$30 each; $300 box of 20</div> </p> 
+
+			<!-- This section deals with the footer-->
+			<footer>
+			<!--#include virtual="inc/footer.html" -->
+			</footer>
+		</div>
+	</body>
+</html>>

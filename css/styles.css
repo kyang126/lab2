@@ -13,56 +13,68 @@ body {
     padding: 10px;
 }
 
+/* This allows spacing between paragraphs */
 p {
 	padding: 10px;
 }
 
+/*This allows spacing for the header which is the title and motto */
 header{
 	padding: 10px;
 }
 
+/* This allowed the Widgets-R-Us to be positioned correctly */
 h1 {
 	margin-top: -10px;
 }
 
+/* This adjusted the positioning of the lorem text with the images */
 .position{
 	margin-top: -40px;
 }
 
+/* This changes the color, font, and size */
 .title {
 	font-family:'Boogaloo', sans-serif;
 	font-size: 36px;
 	color:#116189;
 }
 
+/*This changed the second heading level's size, color, bolder, and positioning */
 .title2 {
-	font-size: 200%;
+	font-size: 150%;
 	color:#116189;
 	font-weight: bolder;
-	margin: 10px;
+	margin-left: 10px;
+	margin-top:10px;
 }
 
+/*This changed the motto size, italic, and to bold */
 .motto {
 	font-size: 120%;
 	font-style: italic;
 	font-weight: bold;
 }
 
+/*This changed the names of the team to bolder, different color, and positioning */
 .names {
-	font-size: 110%;
 	font-weight: bold;
 	color: #116189;
 	margin-bottom: -10px;
 }
 
+/*This created the orange bar*/
 nav ul {
 	background-color: #D74710;
 	border-radius:5px;
 }
+
+/*This lined the pages up*/
 nav li {
 	display: inline-block;
 }
 
+/*This displayed the pages properly */
 nav a {
 	display: inline-block;
 	padding: 10px;
@@ -71,15 +83,18 @@ nav a {
 	font-size: 150%;
 }
 
+/*This made it so when hovering over them it doesn't underline*/
 nav a:link,
 nav a:visited {
 	text-decoration: none;
 }
 
+/*This changed the color when hovered*/
 nav a:hover {
 	background-color: #FF9D45;
 }
 
+/*This made the white box where the text is */
 .content-box {
 	width: 80%;
 	background-color: #FFF;
@@ -87,27 +102,32 @@ nav a:hover {
 	box-shadow: 2px 2px 6px #555;
 }
 
+/*This made the gear logo next to the name */
 .logo {
 	float:left;
 	margin-right: 20px;
 }
 
+/*This put the image in the text and adjusted the positioning */
 .factory {
 	float:left;
 	margin-right: 10px;
 }
 
+/*This put the image in the text and adjusted the positioning */
 .freeshipping{
 	float:right;
 	margin-left: 10px;
 	margin-top: -40px;
 }
 
+/*This put the image in the text and adjusted the positioning */
 .person {
 	float:left;
 	margin-right:10px;
 }
 
+/*This created the banner's size, color, and positioning */
 .banner {
 	width: 75%;
 	background-color: #FBEAE3;
@@ -115,56 +135,66 @@ nav a:hover {
 	margin-top:20px;
 }
 
+/*This made the no underline under the email*/
 .banner a:link,
 .banner a:visited {
 	text-decoration: none;
 }
 
+/*This makes it so that it underlines when hovered*/
 .banner a:hover {
 	text-decoration: underline;
 }
 
+/*This italicized the deal and adjusted the positioning*/
 .deal{
 	font-style:italic;
 	margin-top: -10px;	
 }
 
+/*This is the titles of the widgets */
 .widget {
 	font-weight: bolder;
 	font-size: 150%;
 }
 
+/*This put the image in the text and adjusted the positioning */
 .basic {
 	float:left;
 	margin-right: 20px;
 }
 
+/*This put the image in the text and adjusted the positioning */
 .super{
 	float:left;
 	margin-right: 20px;
 }
 
+/*This put the image in the text and adjusted the positioning */
 .super-duper{
 	float:left;
 	margin-right: 20px;
 }
 
+/* This is the footer positioning and line */
 footer p{
 	margin-top: 50px;
 	border-style:thin;
 	border-top: thin double #d7d8ff;
 }
-
+/*This adjusts the font-size and style to italic */
 footer{
 	font-style: italic;
 	font-size: 80%;
 }
 
+/* Changed the email to no underline */
 footer a:link,
 footer a:visited {
 	text-decoration: none;
 }
 
+/* When hovered to underline */
 footer a:hover {
 	text-decoration: underline;
 }
